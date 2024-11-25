@@ -1,0 +1,25 @@
+body{
+    min-height: 800px;
+    border: 5px solid;
+    display: flex;
+    justify-content: center; 
+    align-items: space-evenly ;
+    flex-wrap: wrap;
+align-items: flex-start
+align-content: center;
+gap:20px
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    font-size: 40px;
+    display: flex;
+    display: flex  ;
+}
+@media(max-width::575 px)
+{
+    body{
+        flex-wrap: wrap;
+    }
+}
